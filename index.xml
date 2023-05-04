@@ -16,6 +16,15 @@
     </item>
     
     <item>
+      <title>手帳</title>
+      <link>https://3x3hygge.github.io/blog/emoji-support2/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://3x3hygge.github.io/blog/emoji-support2/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>About Me</title>
       <link>https://3x3hygge.github.io/page/about/</link>
       <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
@@ -36,7 +45,7 @@ https://github.com/yuin/goldmark https://github.</description>
     </item>
     
     <item>
-      <title>Math Typesetting</title>
+      <title>Math Typesetting2(travel)</title>
       <link>https://3x3hygge.github.io/blog/math-typesetting/</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
