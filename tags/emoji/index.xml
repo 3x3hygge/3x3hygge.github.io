@@ -5,11 +5,11 @@
     <link>https://3x3hygge.github.io/tags/emoji/</link>
     <description>Recent content in emoji on 3x3hygge Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://3x3hygge.github.io/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://3x3hygge.github.io/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Emoji Support</title>
+      <title>Emoji Support 測試</title>
       <link>https://3x3hygge.github.io/blog/emoji-support/</link>
-      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://3x3hygge.github.io/blog/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
