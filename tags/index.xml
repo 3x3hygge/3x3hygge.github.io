@@ -1,63 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Liva | Personal blog template</title>
-    <link>https://demo.gethugothemes.com/liva/examplesite/tags/</link>
-    <description>Recent content in Tags on Liva | Personal blog template</description>
+    <title>Tags on 3x3hygge Blog</title>
+    <link>https://3x3hygge.github.io/tags/</link>
+    <description>Recent content in Tags on 3x3hygge Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="https://demo.gethugothemes.com/liva/examplesite/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://3x3hygge.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Game</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/tags/game/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title>手帳</title>
+      <link>https://3x3hygge.github.io/tags/%E6%89%8B%E5%B8%B3/</link>
+      <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://demo.gethugothemes.com/liva/examplesite/tags/game/</guid>
+      <guid>https://3x3hygge.github.io/tags/%E6%89%8B%E5%B8%B3/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>HTML</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/tags/html/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title>Travel</title>
+      <link>https://3x3hygge.github.io/tags/travel/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://demo.gethugothemes.com/liva/examplesite/tags/html/</guid>
+      <guid>https://3x3hygge.github.io/tags/travel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>New</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/tags/new/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title>challenge</title>
+      <link>https://3x3hygge.github.io/tags/challenge/</link>
+      <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://demo.gethugothemes.com/liva/examplesite/tags/new/</guid>
+      <guid>https://3x3hygge.github.io/tags/challenge/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Photos</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/tags/photos/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title>shopping</title>
+      <link>https://3x3hygge.github.io/tags/shopping/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://demo.gethugothemes.com/liva/examplesite/tags/photos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/tags/python/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://demo.gethugothemes.com/liva/examplesite/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React</title>
-      <link>https://demo.gethugothemes.com/liva/examplesite/tags/react/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://demo.gethugothemes.com/liva/examplesite/tags/react/</guid>
+      <guid>https://3x3hygge.github.io/tags/shopping/</guid>
       <description></description>
     </item>
     

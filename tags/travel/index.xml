@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travel on 3x3hygge Blog</title>
+    <link>https://3x3hygge.github.io/tags/travel/</link>
+    <description>Recent content in Travel on 3x3hygge Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://3x3hygge.github.io/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[埃及]10天-文化歷史之旅</title>
+      <link>https://3x3hygge.github.io/blog/travelegypt/</link>
+      <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://3x3hygge.github.io/blog/travelegypt/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

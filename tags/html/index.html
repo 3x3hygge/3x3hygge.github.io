@@ -1,590 +1,237 @@
 <!DOCTYPE html>
-<html lang="en-us"><head>
-  <meta charset="utf-8">
-  <title>Liva | Personal blog template</title>
+<html lang="tw" itemscope itemtype="http://schema.org/WebPage"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is meta description">
-  <meta name="author" content="Themefisher">
-    
-  
-  <meta name="theme-name" content="liva-hugo" />
-  
-  <meta name="generator" content="Hugo 0.111.3">
+  <link rel="icon" href="/favicon.svg">
 
-  <!-- plugins -->
+  <title>
+  html - 3x3hygge Blog
+  </title>
+  <meta name="description" content="" /><meta name="generator" content="Hugo 0.111.3"><link
+    rel="stylesheet"
+    href="https://3x3hygge.github.io/css/styles.min.8efa668e156bf7cc5abe1f53ee7caf2856c954553ae177fc0e9a95199405df5e.css"
+    integrity="sha256-jvpmjhVr98xavh9T7nyvKFbJVFU64Xf8DpqVGZQF314="
+  />
   
-  <link rel="stylesheet" href="https://demo.gethugothemes.com/liva/examplesite/plugins/bootstrap/bootstrap.min.css ">
-  
-  <link rel="stylesheet" href="https://demo.gethugothemes.com/liva/examplesite/plugins/slick/slick.css ">
-  
-  <link rel="stylesheet" href="https://demo.gethugothemes.com/liva/examplesite/plugins/themify-icons/themify-icons.css ">
-  
-  <link rel="stylesheet" href="https://demo.gethugothemes.com/liva/examplesite/plugins/venobox/venobox.css ">
   
 
-  <!-- Main Stylesheet -->
+  <link rel="alternate" type="application/rss+xml" href="https://3x3hygge.github.io/tags/html/index.xml" title="3x3hygge Blog" />
+  <meta property="og:title" content="html" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://3x3hygge.github.io/tags/html/" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="html"/>
+<meta name="twitter:description" content=""/>
+
+  <meta itemprop="name" content="html">
+<meta itemprop="description" content="">
+
   
-  <link rel="stylesheet" href="https://demo.gethugothemes.com/liva/examplesite/scss/style.min.css" media="screen">
-
-  <!--Favicon-->
-  <link rel="shortcut icon" href="https://demo.gethugothemes.com/liva/examplesite/images/favicon.png " type="image/x-icon">
-  <link rel="icon" href="https://demo.gethugothemes.com/liva/examplesite/images/favicon.png " type="image/x-icon">
-
-  <!-- google analitycs -->
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'Your ID', 'auto');
-    ga('send', 'pageview');
-  </script>
-
 </head>
-<body>
-<!-- preloader start -->
-<div class="preloader">
+<body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen"><header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto relative">
+  <a href="https://3x3hygge.github.io/" class="capitalize font-extrabold text-2xl">
+    
+    
+    
+  </a>
+  <button class="mobile-menu-button md:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+  <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-8 bg-white dark:bg-gray-800">
+
+    
+    <li><a href="/blog">Blog</a></li>
+    
+    <li><a href="/tags/notebook">Notebook | 手帳</a></li>
+    
+    <li><a href="/tags/travel">Travel | 打算環遊世界</a></li>
+    
+
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="open-search inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    
+
+    
+    <li class="grid place-items-center">
+      <span class="toggle-dark-mode inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="12" r="3" />
+          <line x1="12" y1="5" x2="12" y2="5.01" />
+          <line x1="17" y1="7" x2="17" y2="7.01" />
+          <line x1="19" y1="12" x2="19" y2="12.01" />
+          <line x1="17" y1="17" x2="17" y2="17.01" />
+          <line x1="12" y1="19" x2="12" y2="19.01" />
+          <line x1="7" y1="17" x2="7" y2="17.01" />
+          <line x1="5" y1="12" x2="5" y2="12.01" />
+          <line x1="7" y1="7" x2="7" y2="7.01" />
+        </svg>
+      </span>
+    </li>
+    
+  </ul>
+</header>
+<main class="flex-1">
+
+  <h1 class="container px-6 pt-6 mx-auto text-3xl font-bold">html</h1>
+
+  
+  <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
+    <div class="p-2">
+<a href="https://3x3hygge.github.io/blog/markdown-syntax/">
+  
+  <div class="relative">
+    <img src="https://picsum.photos/id/1019/500/200" alt="Markdown Syntax Guide" class="rounded-lg shadow-sm w-full h-52 object-cover" />
+    
+    <div class="absolute top-4 right-4 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white text-sm px-2 py-0.5">
+      
+  
+    Jul 14, 21
+  
+
+
+    </div>
+    
+  </div>
+  
+  <div class="my-2 text-xl font-semibold">Markdown Syntax Guide</div>
+  <div>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</div>
+</a>
+
+  
+
+</div>
+
+  </div><div class="grid place-items-center mb-8">
   
 </div>
-<!-- preloader end -->
-<!-- navigation -->
-<header class="navigation">
-  <div class="container">
-    
-    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
-      <a class="navbar-brand mobile-view" href="https://demo.gethugothemes.com/liva/examplesite/"><img class="img-fluid"
-          src="https://demo.gethugothemes.com/liva/examplesite/images/logo.png" alt="Liva | Personal blog template"></a>
-      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
-        <i class="ti-menu"></i>
-      </button>
-
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <div class="desktop-view">
-          <ul class="navbar-nav mr-auto">
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-github"></i></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
-            </li>
-            
-          </ul>
-        </div>
-
-        <a class="navbar-brand mx-auto desktop-view" href="https://demo.gethugothemes.com/liva/examplesite/"><img class="img-fluid"
-            src="https://demo.gethugothemes.com/liva/examplesite/images/logo.png" alt="Liva | Personal blog template"></a>
-
-        <ul class="navbar-nav">
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://demo.gethugothemes.com/liva/examplesite/about/">About</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://demo.gethugothemes.com/liva/examplesite/blog/">Post</a>
-          </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="https://demo.gethugothemes.com/liva/examplesite/contact/">Contact</a>
-          </li>
-          
-          
-        </ul>
-
-        
-        <!-- search -->
-        <div class="search pl-lg-4">
-          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
-          <div class="search-wrapper">
-            <form action="https://demo.gethugothemes.com/liva/examplesite//search" class="h-100">
-              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
-            </form>
-            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
-          </div>
-        </div>
-        
-
-        
-      </div>
-    </nav>
-  </div>
-</header>
-<!-- /navigation -->
-
-
-<section class="section-sm">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="row">
-          
-          
-          <div class="col-md-6 mb-4">
-    <article class="card">
-        
-        <img src="https://demo.gethugothemes.com/liva/examplesite/images/post/post-1.jpg" class="card-img-top" alt="How To Use Checklists To Improve Your UX">
-        
-        <div class="card-body px-0">
-        
-        <a href="/liva/examplesite/categories/go-language"
-            class="text-primary">Go language</a>
-        
-        <a href="https://demo.gethugothemes.com/liva/examplesite/blog/post-10/" class="h5 d-block my-3">How To Use Checklists To Improve Your UX</a>
-        <div class="mb-3 post-meta">
-            <span>By Themefisher</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>29 October 2019</span>
-            
-        </div>
-        <p class="card-text">Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</p>
-        <a href="https://demo.gethugothemes.com/liva/examplesite/blog/post-10/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
-          
-          <div class="col-md-6 mb-4">
-    <article class="card">
-        
-        <img src="https://demo.gethugothemes.com/liva/examplesite/images/post/post-2.jpg" class="card-img-top" alt="How To Use Checklists To Improve Your UX">
-        
-        <div class="card-body px-0">
-        
-        <a href="/liva/examplesite/categories/go-language"
-            class="text-primary">Go language</a>
-        
-        <a href="https://demo.gethugothemes.com/liva/examplesite/blog/post-11/" class="h5 d-block my-3">How To Use Checklists To Improve Your UX</a>
-        <div class="mb-3 post-meta">
-            <span>By Themefisher</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>29 October 2019</span>
-            
-        </div>
-        <p class="card-text">Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</p>
-        <a href="https://demo.gethugothemes.com/liva/examplesite/blog/post-11/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
-          
-          <div class="col-md-6 mb-4">
-    <article class="card">
-        
-        <img src="https://demo.gethugothemes.com/liva/examplesite/images/post/post-3.jpg" class="card-img-top" alt="How To Use Checklists To Improve Your UX">
-        
-        <div class="card-body px-0">
-        
-        <a href="/liva/examplesite/categories/programming-language"
-            class="text-primary">Programming language</a>
-        
-        <a href="https://demo.gethugothemes.com/liva/examplesite/blog/post-12/" class="h5 d-block my-3">How To Use Checklists To Improve Your UX</a>
-        <div class="mb-3 post-meta">
-            <span>By Themefisher</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>29 October 2019</span>
-            
-        </div>
-        <p class="card-text">Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</p>
-        <a href="https://demo.gethugothemes.com/liva/examplesite/blog/post-12/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
-          
-          <div class="col-md-6 mb-4">
-    <article class="card">
-        
-        <img src="https://demo.gethugothemes.com/liva/examplesite/images/post/post-3.jpg" class="card-img-top" alt="How To Use Checklists To Improve Your UX">
-        
-        <div class="card-body px-0">
-        
-        <a href="/liva/examplesite/categories/go-language"
-            class="text-primary">Go language</a>
-        
-        <a href="https://demo.gethugothemes.com/liva/examplesite/blog/post-13/" class="h5 d-block my-3">How To Use Checklists To Improve Your UX</a>
-        <div class="mb-3 post-meta">
-            <span>By Themefisher</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>29 October 2019</span>
-            
-        </div>
-        <p class="card-text">Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</p>
-        <a href="https://demo.gethugothemes.com/liva/examplesite/blog/post-13/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
-          
-          <div class="col-md-6 mb-4">
-    <article class="card">
-        
-        <img src="https://demo.gethugothemes.com/liva/examplesite/images/post/post-1.jpg" class="card-img-top" alt="How To Use Checklists To Improve Your UX">
-        
-        <div class="card-body px-0">
-        
-        <a href="/liva/examplesite/categories/go-language"
-            class="text-primary">Go language</a>
-        
-        <a href="https://demo.gethugothemes.com/liva/examplesite/blog/post-4/" class="h5 d-block my-3">How To Use Checklists To Improve Your UX</a>
-        <div class="mb-3 post-meta">
-            <span>By Themefisher</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>29 October 2019</span>
-            
-        </div>
-        <p class="card-text">Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</p>
-        <a href="https://demo.gethugothemes.com/liva/examplesite/blog/post-4/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
-          
-          <div class="col-md-6 mb-4">
-    <article class="card">
-        
-        <img src="https://demo.gethugothemes.com/liva/examplesite/images/post/post-2.jpg" class="card-img-top" alt="How To Use Checklists To Improve Your UX">
-        
-        <div class="card-body px-0">
-        
-        <a href="/liva/examplesite/categories/go-language"
-            class="text-primary">Go language</a>
-        
-        <a href="https://demo.gethugothemes.com/liva/examplesite/blog/post-5/" class="h5 d-block my-3">How To Use Checklists To Improve Your UX</a>
-        <div class="mb-3 post-meta">
-            <span>By Themefisher</span>
-            
-            <span class="border-bottom border-primary px-2 mx-1"></span>
-            <span>29 October 2019</span>
-            
-        </div>
-        <p class="card-text">Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</p>
-        <a href="https://demo.gethugothemes.com/liva/examplesite/blog/post-5/" class="btn btn-outline-primary">read more</a>
-        </div>
-    </article>
-</div>
-          
-        </div>
-      </div>
-      
-      <div class="col-lg-4">
-  <div class="widgets">
-    
-    <div class="widget">
-      
-      <h4 class="widget-title">About Me</h4>
-      
-      <img src="https://demo.gethugothemes.com/liva/examplesite/images/author.jpg" alt=""
-        class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
-      
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-      <a href="https://demo.gethugothemes.com/liva/examplesite/about/" class="btn btn-outline-primary">Know More</a>
-      
+<div class="bg-blue-100 dark:bg-gray-900">
+  <div class="container px-4 py-12 mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+    <div>
+      <div class="text-2xl font-bold mb-2">Follow me</div>
+      <p class="opacity-60">I work on everything coding and tweet developer memes</p>
     </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Category</h4>
-      <ul class="list-unstyled">
-        <li><a
-            href="/liva/examplesite/categories/android-and-gaming/">Android and gaming</a>
-        </li>
-        <li><a
-            href="/liva/examplesite/categories/go-language/">Go language</a>
-        </li>
-        <li><a
-            href="/liva/examplesite/categories/html/">HTML</a>
-        </li>
-        <li><a
-            href="/liva/examplesite/categories/html-css/">HTML css</a>
-        </li>
-        <li><a
-            href="/liva/examplesite/categories/programming-language/">Programming language</a>
-        </li>
-        <li><a
-            href="/liva/examplesite/categories/python/">Python</a>
-        </li>
-        <li><a
-            href="/liva/examplesite/categories/web-design/">Web design</a>
-        </li>
-      </ul>
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Tag</h4>
-      <ul class="list-inline">
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/liva/examplesite/tags/game/">Game</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/liva/examplesite/tags/html/">HTML</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/liva/examplesite/tags/new/">New</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/liva/examplesite/tags/photos/">Photos</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/liva/examplesite/tags/python/">Python</a></li>
-        <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
-            href="/liva/examplesite/tags/react/">React</a></li>
-      </ul>
-    </div>
-    
-    <div class="widget">
-      <h4 class="widget-title">Social</h4>
-      <ul class="list-inline social-links">
-        
-        <li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
-        
-        <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
-        
-        <li class="list-inline-item"><a href="#"><i class="ti-instagram"></i></a></li>
-        
-        <li class="list-inline-item"><a href="#"><i class="ti-github"></i></a></li>
-        
-        <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
-        
-      </ul>
-    </div>
-    
-    <div class="widget">
-      <img src="https://demo.gethugothemes.com/liva/examplesite/images/promotion.png" alt="" class="img-fluid">
-    </div>
-  </div>
-</div>
 
+    <ul class="flex justify-center gap-x-3 flex-wrap gap-y-2">
       
-
-      
-      <div class="col-12 mt-5">
-        
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/liva/examplesite/tags/html/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/liva/examplesite/tags/html/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/liva/examplesite/tags/html/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
     </ul>
-      </div>
-    </div>
   </div>
-</section>
+</div>
 
-
-
-<section class="section-sm">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <h2>Join Our Newsletter</h2>
-        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
-        <form action="#" class="row justify-content-center">
-          <div class="input-group col-md-8">
-            <input type="text" class="form-control" placeholder="Your Email Address">
-            <div class="input-group-append">
-              <button class="input-group-text btn btn-primary">Subscribe</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<footer class="text-capitalize">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 text-center mb-5">
-        <a href="https://demo.gethugothemes.com/liva/examplesite/"><img src="https://demo.gethugothemes.com/liva/examplesite/images/logo.png" alt="Liva | Personal blog template"></a>
-      </div>
-               
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Contact Me</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="tel:0124857985320"><i
-                class="ti-mobile mr-3 text-primary"></i>0124857985320</a></li>
-          
-                     
-          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Dhaka, Bangladedsh</li>
-          
-                     
-          <li class="mb-3"><a class="text-dark" href="mailto:demo@email.com"><i
-                class="ti-email mr-3 text-primary"></i>demo@email.com</a>
-          
-          </li>
-        </ul>
-      </div>
-      
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Social Contacts</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="#">facebook</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="#">instagram</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="#">github</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
-          
-        </ul>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Categories</h6>
-        <ul class="list-unstyled">
-          <li class="mb-3"><a class="text-dark"
-              href="/liva/examplesite/categories/android-and-gaming/">Android and gaming</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="/liva/examplesite/categories/go-language/">Go language</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="/liva/examplesite/categories/html/">HTML</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="/liva/examplesite/categories/html-css/">HTML css</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="/liva/examplesite/categories/programming-language/">Programming language</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="/liva/examplesite/categories/python/">Python</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
-              href="/liva/examplesite/categories/web-design/">Web design</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Quick Links</h6>
-        <ul class="list-unstyled">
-          
-          <li class="mb-3"><a class="text-dark" href="https://demo.gethugothemes.com/liva/examplesite/about/">About</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="https://demo.gethugothemes.com/liva/examplesite/blog/">Post</a></li>
-          
-          <li class="mb-3"><a class="text-dark" href="https://demo.gethugothemes.com/liva/examplesite/contact/">Contact</a></li>
-          
-        </ul>
-      </div>
-      <div class="col-12 border-top py-4 text-center">
-        | copyright © 2021 <a href="https://themefisher.com/hugo-themes/">Themefisher</a> All Rights Reserved |
-      </div>
-    </div>
-  </div>
+    </main><footer class="container p-6 mx-auto flex justify-between items-center">
+  <span class="text-sm font-light">
+    
+    Copyright © 2021 - Katheryn Fox · All rights reserved
+    
+  </span>
+  <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M18 15l-6 -6l-6 6h12" />
+    </svg>
+  </span>
 </footer>
 
-<script>
-  window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"><\/script>');
-</script>
+<div class="search-ui absolute top-0 left-0 w-full h-full bg-white dark:bg-gray-800 hidden">
+  <div class="container max-w-3xl mx-auto p-12">
+    <div class="relative">
+      <div class="my-4 text-center text-2xl font-bold">Search</div>
 
-<script>
-  var indexURL = "https://demo.gethugothemes.com/liva/examplesite/index.json"
-</script>
+      <span class="p-2 absolute right-0 top-0 cursor-pointer close-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </span>
+    </div>
 
-<!-- JS Plugins -->
+    <input type="search" class="py-2 px-3 w-full dark:text-black border dark:border-transparent"
+      placeholder="Enter search query" />
 
-<script src="https://demo.gethugothemes.com/liva/examplesite/plugins/jQuery/jquery.min.js"></script>
+    <div class="search-results text-lg font-medium my-4 hidden">Results</div>
+    <ul class="search-list my-2">
 
-<script src="https://demo.gethugothemes.com/liva/examplesite/plugins/bootstrap/bootstrap.min.js"></script>
+    </ul>
 
-<script src="https://demo.gethugothemes.com/liva/examplesite/plugins/slick/slick.min.js"></script>
-
-<script src="https://demo.gethugothemes.com/liva/examplesite/plugins/venobox/venobox.min.js"></script>
-
-<script src="https://demo.gethugothemes.com/liva/examplesite/plugins/search/fuse.min.js"></script>
-
-<script src="https://demo.gethugothemes.com/liva/examplesite/plugins/search/mark.js"></script>
-
-<script src="https://demo.gethugothemes.com/liva/examplesite/plugins/search/search.js"></script>
-
-<!-- Main Script -->
-
-<script src="https://demo.gethugothemes.com/liva/examplesite/js/script.min.js"></script>
-
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
-<div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+    <div class="no-results text-center my-8 hidden">
+      <div class="text-xl font-semibold mb-2">No results found</div>
+      <p class="font-light text-sm">Try adjusting your search query</p>
+    </div>
+  </div>
 </div>
+
+
+
+
+
+<script src="https://3x3hygge.github.io/js/scripts.min.js"></script>
+
+
+
+
+
+
 <script>
-	(function ($) {
-		const cookieBox = document.getElementById('js-cookie-box');
-		const cookieButton = document.getElementById('js-cookie-button');
-		if (!Cookies.get('cookie-box')) {
-			cookieBox.classList.remove('cookie-box-hide');
-			cookieButton.onclick = function () {
-				Cookies.set('cookie-box', true, {
-					expires:  2 
-				});
-				cookieBox.classList.add('cookie-box-hide');
-			};
-		}
-	})(jQuery);
+  
+  const darkmode = document.querySelector('.toggle-dark-mode');
+  function toggleDarkMode() {
+    if (document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('darkmode', 'light')
+    } else {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('darkmode', 'dark')
+    }
+  }
+  if (darkmode) {
+    darkmode.addEventListener('click', toggleDarkMode);
+  }
+
+  const darkStorage = localStorage.getItem('darkmode');
+  const isBrowserDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  if (!darkStorage && isBrowserDark) {
+    document.documentElement.classList.add('dark');
+  }
+
+  if (darkStorage && darkStorage === 'dark') {
+    toggleDarkMode();
+  }
 </script>
 
 
-<style>
-.cookie-box {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 9999;
-  padding: 1rem 2rem;
-  background: rgb(71, 71, 71);
-  transition: all .75s cubic-bezier(.19, 1, .22, 1);
-  color: #fdfdfd;
-}
-
-.cookie-box-hide {
-  display: none;
-}
-</style>
+<script>
+  const mobileMenuButton = document.querySelector('.mobile-menu-button')
+  const mobileMenu = document.querySelector('.mobile-menu')
+  function toggleMenu() {
+    mobileMenu.classList.toggle('hidden');
+    mobileMenu.classList.toggle('flex');
+  }
+  if(mobileMenu && mobileMenuButton){
+    mobileMenuButton.addEventListener('click', toggleMenu)
+  }
+</script>
 </body>
 </html>
