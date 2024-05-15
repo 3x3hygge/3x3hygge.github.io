@@ -1,66 +1,127 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on 3x3hygge Blog</title>
-    <link>https://3x3hygge.github.io/blog/</link>
-    <description>Recent content in Blog on 3x3hygge Blog</description>
+    <title>blog on Liva | Personal blog template</title>
+    <link>https://demo.gethugothemes.com/liva/examplesite/blog/</link>
+    <description>Recent content in blog on Liva | Personal blog template</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://3x3hygge.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://demo.gethugothemes.com/liva/examplesite/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Emoji Support 測試</title>
-      <link>https://3x3hygge.github.io/blog/emoji-support/</link>
-      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-1/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://3x3hygge.github.io/blog/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-1/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
     <item>
-      <title>手帳</title>
-      <link>https://3x3hygge.github.io/blog/emoji-support2/</link>
-      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-10/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://3x3hygge.github.io/blog/emoji-support2/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-10/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://3x3hygge.github.io/blog/markdown-syntax/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-11/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://3x3hygge.github.io/blog/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-11/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
     <item>
-      <title>Math Typesetting2(travel)</title>
-      <link>https://3x3hygge.github.io/blog/math-typesetting/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-12/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://3x3hygge.github.io/blog/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-12/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
     <item>
-      <title>Placeholder Text</title>
-      <link>https://3x3hygge.github.io/blog/placeholder-text/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-13/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://3x3hygge.github.io/blog/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-13/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
     <item>
-      <title>Rich Content</title>
-      <link>https://3x3hygge.github.io/blog/rich-content/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-2/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://3x3hygge.github.io/blog/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Built-in Shortcodes&lt;/a&gt;
- for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Privacy Config&lt;/a&gt;
- and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-2/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+    <item>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-3/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-3/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+    <item>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-4/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-4/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+    <item>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-5/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-5/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+    <item>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-6/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-6/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+    <item>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-7/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-7/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+    <item>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-8/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-8/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+    </item>
+    
+    <item>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/blog/post-9/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://demo.gethugothemes.com/liva/examplesite/blog/post-9/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
   </channel>

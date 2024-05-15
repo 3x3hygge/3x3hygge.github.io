@@ -1,89 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 3x3hygge Blog</title>
-    <link>https://3x3hygge.github.io/tags/</link>
-    <description>Recent content in Tags on 3x3hygge Blog</description>
+    <title>Tags on Liva | Personal blog template</title>
+    <link>https://demo.gethugothemes.com/liva/examplesite/tags/</link>
+    <description>Recent content in Tags on Liva | Personal blog template</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://3x3hygge.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="https://demo.gethugothemes.com/liva/examplesite/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>emoji</title>
-      <link>https://3x3hygge.github.io/tags/emoji/</link>
-      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      <title>Game</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/tags/game/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://3x3hygge.github.io/tags/emoji/</guid>
+      <guid>https://demo.gethugothemes.com/liva/examplesite/tags/game/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>notebook</title>
-      <link>https://3x3hygge.github.io/tags/notebook/</link>
-      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      <title>HTML</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/tags/html/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://3x3hygge.github.io/tags/notebook/</guid>
+      <guid>https://demo.gethugothemes.com/liva/examplesite/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>css</title>
-      <link>https://3x3hygge.github.io/tags/css/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <title>New</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/tags/new/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://3x3hygge.github.io/tags/css/</guid>
+      <guid>https://demo.gethugothemes.com/liva/examplesite/tags/new/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>html</title>
-      <link>https://3x3hygge.github.io/tags/html/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Photos</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/tags/photos/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://3x3hygge.github.io/tags/html/</guid>
+      <guid>https://demo.gethugothemes.com/liva/examplesite/tags/photos/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>markdown</title>
-      <link>https://3x3hygge.github.io/tags/markdown/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Python</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/tags/python/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://3x3hygge.github.io/tags/markdown/</guid>
+      <guid>https://demo.gethugothemes.com/liva/examplesite/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>travel</title>
-      <link>https://3x3hygge.github.io/tags/travel/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <title>React</title>
+      <link>https://demo.gethugothemes.com/liva/examplesite/tags/react/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://3x3hygge.github.io/tags/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>https://3x3hygge.github.io/tags/privacy/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://3x3hygge.github.io/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>https://3x3hygge.github.io/tags/shortcodes/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://3x3hygge.github.io/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>text</title>
-      <link>https://3x3hygge.github.io/tags/text/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://3x3hygge.github.io/tags/text/</guid>
+      <guid>https://demo.gethugothemes.com/liva/examplesite/tags/react/</guid>
       <description></description>
     </item>
     
